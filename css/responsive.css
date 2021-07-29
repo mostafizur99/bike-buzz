@@ -32,6 +32,31 @@
         text-align: center;
         margin-bottom: 65px;
     }
+
+    /* Footer area */
+    .footer-download-box {
+        text-align: center;
+    }
+    .navbar {
+        justify-content: center;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .footer-area a.nav-link {
+        margin-right: 24px;
+    }
+    .footer-app {
+        margin-top: 60px;
+        text-align: center;
+    }
+    .copyright {
+        margin-top: 80px;
+        text-align: center;
+    }
+
 }
 
 /* Mobile Device */
@@ -110,4 +135,23 @@
     .frequently-asked-image img {
         width: 100%;
     }
+
+    /* Footer area */
+    .footer-area {
+        background-color: #0B0D17;
+        padding: 80px 0 45px 0;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .footer-area a.nav-link {
+        margin-right: 24px;
+    }
+    .copyright {
+        margin-top: 80px;
+        text-align: center;
+    }
+
 }
