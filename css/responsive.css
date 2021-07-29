@@ -57,6 +57,14 @@
         text-align: center;
     }
 
+    /* Save area  */
+    .custom-alignment {
+        text-align: center;
+    }
+    .save-image {
+        margin-top: 40px;
+    }
+
 }
 
 /* Mobile Device */
@@ -134,6 +142,14 @@
     }
     .frequently-asked-image img {
         width: 100%;
+    }
+
+    /* Save area  */
+    .custom-alignment {
+        text-align: center;
+    }
+    .save-image {
+        margin-top: 40px;
     }
 
     /* Footer area */

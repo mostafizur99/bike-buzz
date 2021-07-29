@@ -213,6 +213,41 @@ section.frequently-asked-area {
     color: #7E848C;
 }
 
+/* Save area  */
+.save-area {
+    padding: 100px 0;
+    font-family: 'Inter', sans-serif;
+    /* background-image: -webkit-gradient(linear, left top, left bottom, from(#E3051A), to(#463891)); */
+    /* background-image: linear-gradient( #E76F51, #264653); */
+    background-image: linear-gradient( #E76F51, #463891);
+}
+.save-heading {
+    font-weight: 600;
+    font-size: 35px;
+    color: #ffffff;
+}
+.save-offer {
+    color: #ffffff;
+    font-size: 35px;
+}
+.save-amount {
+    font-size: 100px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.btn-save{
+    color: #ffffff;
+    font-weight: 600;
+
+}
+.btn-save .fas{
+    margin-left: 8px;
+}
+.save-image img{
+    width: 50%;
+    -webkit-box-reflect: right;
+}
+
 /* Footer area */
 footer {
     font-family: 'Manrope', sans-serif;
@@ -251,7 +286,6 @@ footer {
 .app-image img{
 width: 135px;
 }
-
 .copyright {
     color: #D9DBE1;
 }
