@@ -17,7 +17,11 @@ body{
     padding: 10px 45px;
     border-radius: 5px;
 }
-
+.section-header {
+    font-weight: 600;
+    font-size: 48px;
+    color: #000000;
+}
 
 /* Header area  */
 .header-area{
@@ -47,4 +51,36 @@ body{
 
 .banner-right img {
     width: 100%;
+}
+
+/* Feature area */
+.feature-area{
+    padding: 64px 0;
+}
+.feature-subheader {
+    font-weight: 600;
+    font-size: 14px;
+    color: #E76F51;
+    position: relative;
+    margin-bottom: 115px;
+    
+}
+.feature-subheader::after {
+    position: absolute;
+    width: 58.5px;
+    height: 1px;
+    left: 48%;
+    top: 150%;
+    content: "";
+    background: #E76F51;
+}
+.feature-product{
+    width: 288px;
+}
+.feature-product img{
+    width: 100%;
+}
+.product-one img,
+.product-three img{
+    filter: grayscale(100%);
 }

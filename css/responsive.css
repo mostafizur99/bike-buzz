@@ -8,10 +8,23 @@
     .banner-heading {
         font-size: 38px;
     }
+
+    /* Feature area */
+    .feature-product {
+        width: 200px;
+    }
+    .feature-subheader::after {
+        left: 47%;
+    }
 }
 
 /* Mobile Device */
 @media only screen and (max-width:688px) {
+    /* Common css  */
+    .section-header {
+        font-size: 36px;
+    }
+
     /* --- Banner area */
     .banner-area {
         padding-bottom: 34px;
@@ -24,6 +37,24 @@
     }
     .banner-left {
         margin-bottom: 56px;
+    }
+
+    /* Feature area */
+    .feature-area {
+        padding: 107px 0 0 0;
+    }
+    .feature-subheader {
+        margin-bottom: 101px;
+    }
+    .feature-subheader::after{
+        display: none;
+    }
+    .feature-product {
+        width: 100%;
+        margin-bottom: 115px;
+    }
+    .feature-product img {
+        width: 90%;
     }
 
 }
