@@ -5,6 +5,9 @@
 /* Tablet Device */
 @media only screen and (min-width: 688px) and (max-width:992px) {
     /* --- Banner-area */
+    .banner-area {
+        padding-top: 65px;
+    }
     .banner-heading {
         font-size: 38px;
     }
@@ -65,6 +68,11 @@
         margin-top: 40px;
     }
 
+    /* Subscribe area */
+    .form-area {
+        padding: 10px 85px;
+    }
+
 }
 
 /* Mobile Device */
@@ -76,7 +84,7 @@
 
     /* --- Banner area */
     .banner-area {
-        padding-bottom: 34px;
+        padding: 65px 0 34px 0;
     }
     .banner-subheading {
         font-size: 16px;
@@ -150,6 +158,10 @@
     }
     .save-image {
         margin-top: 40px;
+    }
+    /* Subscribe area */
+    .form-area {
+        padding: 10px 18px;
     }
 
     /* Footer area */
