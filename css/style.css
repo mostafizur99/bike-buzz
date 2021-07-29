@@ -1,0 +1,50 @@
+/* Common css  */
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@400;500&family=Poppins:wght@300;400;500;600&display=swap');
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+ */
+body{
+    font-family: 'Poppins', sans-serif
+}
+.btn-custom {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #E76F51;
+    padding: 10px 45px;
+    border-radius: 5px;
+}
+
+
+/* Header area  */
+.header-area{
+    background-color: #264653;
+}
+
+
+/* Banner area */
+.banner-area {
+    padding-bottom: 96px;
+}
+.banner-subheading {
+    font-weight: 300;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.banner-heading {
+    font-weight: 600;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.banner-text {
+    color: #E0E0E0;
+    margin: 18px 0;
+}
+
+.banner-right img {
+    width: 100%;
+}
