@@ -18,6 +18,10 @@ body{
 .header-space{
     margin-bottom: 52px;
 }
+.highlighted{
+    color: #E76F51;
+}
+
 /* Header area  */
 .header-area{
     background-color: #264653;
@@ -123,4 +127,49 @@ article {
 .btn-news:hover{
     background-color: #E76F51;
     color: #ffffff;
+}
+
+/* Happy-clients area */
+.happy-clients-area{
+    padding-bottom: 80px;
+}
+.cnt-header-custom {
+    margin-bottom: 80px;
+    }
+.clients-box {
+    padding: 0 55px;
+}
+.client-image {
+    margin-bottom: 30px;
+}
+.client-image img {
+    width: 149px;
+}
+.client-quote {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color: #6C6C6C;
+}
+.client-review {
+    color: #E77C40;
+}
+.client-name {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #23A6F0;
+    margin: 15px 0;
+}
+.client-id {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.single-client-box.text-center {
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    padding: 40px 35px;
+    border-radius: 5px;
 }

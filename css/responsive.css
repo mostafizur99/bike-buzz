@@ -21,6 +21,11 @@
     .btn-news {
         padding: 10px 40px;
     }
+
+   /* Happy-clients area */
+    .single-client-box.text-center {
+        margin-bottom: 30px;
+    }
 }
 
 /* Mobile Device */
@@ -69,5 +74,19 @@
     .news-title {
         font-size: 25px;
     }
+
+   /* Happy-clients area */
+   .cnt-header-custom {
+    padding: 0px 60px;
+    line-height: 54px;
+    }
+    .clients-box {
+        padding: 0;
+    }
+    .single-client-box{
+        padding: 30px 20px;
+        margin-bottom: 30px;
+    }
+
 
 }
