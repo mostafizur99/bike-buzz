@@ -26,6 +26,12 @@
     .single-client-box.text-center {
         margin-bottom: 30px;
     }
+
+    /* Frequently-asked-questions area  */
+    .frequently-asked-image {
+        text-align: center;
+        margin-bottom: 65px;
+    }
 }
 
 /* Mobile Device */
@@ -88,5 +94,20 @@
         margin-bottom: 30px;
     }
 
-
+    /* Frequently-asked-questions area  */
+    section.frequently-asked-area {
+        padding: 0 0 65px 0;
+    }
+    .frqnt-header-custom {
+        margin-bottom: 25px;
+        padding: 0 20px;
+        line-height: 50px;
+    }
+    .frequently-asked-image {
+        text-align: center;
+        margin-bottom: 65px;
+    }
+    .frequently-asked-image img {
+        width: 100%;
+    }
 }
